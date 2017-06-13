@@ -6,7 +6,8 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SteppingNumbers stepNum = new SteppingNumbers();
+            stepNum.SolveSteppingNumbers();
         }
     }
 }

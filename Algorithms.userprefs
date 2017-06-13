@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{0F14A82B-A527-4C21-BCAC-242E30106DB3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/SteppingNumbers.cs">
     <Files>
-      <File FileName="Algorithms/Program.cs" Line="4" Column="2" />
+      <File FileName="Algorithms/Program.cs" Line="7" Column="47" />
+      <File FileName="Algorithms/SteppingNumbers.cs" Line="11" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Algorithms PreferredExecutionTarget="MonoDevelop.Default" />

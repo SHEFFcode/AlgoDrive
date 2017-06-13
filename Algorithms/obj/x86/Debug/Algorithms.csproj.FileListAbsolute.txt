@@ -1,0 +1,5 @@
+/Users/sheffmachine/Projects/Algorithms/Algorithms/bin/Debug/Algorithms.exe
+/Users/sheffmachine/Projects/Algorithms/Algorithms/bin/Debug/Algorithms.pdb
+/Users/sheffmachine/Projects/Algorithms/Algorithms/obj/x86/Debug/Algorithms.csproj.CoreCompileInputs.cache
+/Users/sheffmachine/Projects/Algorithms/Algorithms/obj/x86/Debug/Algorithms.exe
+/Users/sheffmachine/Projects/Algorithms/Algorithms/obj/x86/Debug/Algorithms.pdb
