@@ -10,10 +10,48 @@ namespace Algorithms
         {
             //Given Numbers
             var givenNumbers = new List<int>() { 10, 20 };
+            var range = givenNumbers[1] - givenNumbers[0];
+            var stepingNumbers = new List<int>();
+
+            var numbersToTest = Enumerable.Range(givenNumbers[0], range + 1).ToList();
 
 
+            numbersToTest.ForEach(number => {
+                if (CheckStepping(number))
+                {
+                    stepingNumbers.Add(number);
+                }
+            });
 
+            if(stepingNumbers.Count > 0)
+            {
+                stepingNumbers.ForEach(stepingNumber => {
+                    Console.WriteLine($"{stepingNumber}");
+                });
+            }
+            else 
+            {
+                Console.WriteLine("There are no stepping numbers in this range.");
+            }
+        }
 
+        private bool CheckStepping(int number)
+        {
+            var stringNumber = number.ToString();
+            var digits = (from digit in stringNumber select (int)Char.GetNumericValue(digit));
+
+            for (int i = 0; i < digits.Count() - 1; i++)
+            {
+                if (Math.Abs(digits.ElementAt(i) - digits.ElementAt(i + 1)) == 1)
+                {
+                    continue;
+                }
+                else
+                {
+                    return false;    
+                }
+            }
+            return true;
         }
     }
 }
