@@ -35,6 +35,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SteppingNumbers.cs" />
+    <Compile Include="LongestPallindrome.cs" />
+    <Compile Include="MultilineString.cs" />
+    <Compile Include="FibonacciSequence.cs" />
+    <Compile Include="ExtractURLParams.cs" />
+    <Compile Include="PallindromeCheck.cs" />
+    <Compile Include="MinMaxSum.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -13,10 +13,10 @@ namespace Algorithms
             var range = givenNumbers[1] - givenNumbers[0];
             var stepingNumbers = new List<int>();
 
-            var numbersToTest = Enumerable.Range(givenNumbers[0], range + 1).ToList();
+            var numbersToTest = Enumerable.Range(givenNumbers[0], range + 1).ToList(); //n
 
 
-            numbersToTest.ForEach(number => {
+            numbersToTest.ForEach(number => { //n
                 if (CheckStepping(number))
                 {
                     stepingNumbers.Add(number);
@@ -25,7 +25,7 @@ namespace Algorithms
 
             if(stepingNumbers.Count > 0)
             {
-                stepingNumbers.ForEach(stepingNumber => {
+                stepingNumbers.ForEach(stepingNumber => { //n
                     Console.WriteLine($"{stepingNumber}");
                 });
             }
@@ -38,9 +38,9 @@ namespace Algorithms
         private bool CheckStepping(int number)
         {
             var stringNumber = number.ToString();
-            var digits = (from digit in stringNumber select (int)Char.GetNumericValue(digit));
+            var digits = (from digit in stringNumber select (int)Char.GetNumericValue(digit)); //m
 
-            for (int i = 0; i < digits.Count() - 1; i++)
+            for (int i = 0; i < digits.Count() - 1; i++)//m
             {
                 if (Math.Abs(digits.ElementAt(i) - digits.ElementAt(i + 1)) == 1)
                 {
