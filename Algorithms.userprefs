@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{0F14A82B-A527-4C21-BCAC-242E30106DB3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/MinMaxSum.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/Program.cs">
     <Files>
-      <File FileName="Algorithms/Program.cs" Line="25" Column="58" />
-      <File FileName="Algorithms/MinMaxSum.cs" Line="6" Column="26" />
+      <File FileName="Algorithms/Program.cs" Line="32" Column="27" />
+      <File FileName="Algorithms/BirthdayCandles.cs" Line="27" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Algorithms PreferredExecutionTarget="MonoDevelop.Default" />

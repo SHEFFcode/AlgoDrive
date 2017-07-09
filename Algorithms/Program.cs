@@ -25,10 +25,13 @@ namespace Algorithms
             //var palChecker = new PallindromeChecker("yuriy");
             //palChecker.CheckForPallindrome();
 
-            var minMaxSumCalculator = new MinMaxSum();
-            minMaxSumCalculator.CalculateMinMaxSum(new int[] {1, 2, 3, 4, 5 });
-            minMaxSumCalculator.CalculateMinMaxSum(new int[] { 5, 4, 3, 2, 1 });
-            minMaxSumCalculator.CalculateMinMaxSum(new int[] { 2, 1, 5, 4, 3 });
+            //var minMaxSumCalculator = new MinMaxSum();
+            //minMaxSumCalculator.CalculateMinMaxSum(new int[] {1, 2, 3, 4, 5 });
+
+
+            var BirthdayCandles = new BirthdayCandles();
+            BirthdayCandles.birthdayCakeCandles(1, new int[] {3, 2, 1, 3});
+
         }
     }
 }

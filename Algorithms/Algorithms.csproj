@@ -41,6 +41,7 @@
     <Compile Include="ExtractURLParams.cs" />
     <Compile Include="PallindromeCheck.cs" />
     <Compile Include="MinMaxSum.cs" />
+    <Compile Include="BirthdayCandles.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
